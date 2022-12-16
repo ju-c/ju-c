@@ -11,8 +11,8 @@
 
 ## 📝 My latest blog posts:
 
-<!--START_SECTION:blog-feed-->
-<!--END_SECTION:blog-feed-->
+<!--START_SECTION:feed-->
+<!--END_SECTION:feed-->
 
 ## 📍 Where to find me:
 

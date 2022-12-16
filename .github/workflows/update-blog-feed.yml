@@ -1,4 +1,4 @@
-name: Update README section 'blog-feed'
+name: Update this repo's README
 on:
   schedule:
     - cron: 0 8 * * *
@@ -9,6 +9,6 @@ jobs:
       - uses: JasonEtco/rss-to-readme@v1
         with:
           feed-url: https://blog.julienc.net/feed.xml
-          readme-section: blog-feed
+          readme-section: feed
           empty-commits: false
           branch: main
