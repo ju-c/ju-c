@@ -1,7 +1,7 @@
 name: Update this repo's README
 on:
   schedule:
-    - cron: 0 20 * * *
+    - cron: * * * * *
 jobs:
   update:
     runs-on: ubuntu-latest
