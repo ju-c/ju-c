@@ -1,7 +1,7 @@
 name: Update this repo's README
 on:
   schedule:
-    - cron: 0 8 * * *
+    - cron: 0 20 * * *
 jobs:
   update:
     runs-on: ubuntu-latest
@@ -10,5 +10,5 @@ jobs:
         with:
           feed-url: https://blog.julienc.net/feed.xml
           readme-section: feed
-          empty-commits: false
+          empty-commits: true
           branch: main
