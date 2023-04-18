@@ -8,6 +8,6 @@ jobs:
     steps:
       - uses: JasonEtco/rss-to-readme@v2
         with:
-          feed-url: https://blog.julienc.net/feed.xml
+          feed-url: https://www.julienc.net/rss.xml
           readme-section: feed
           branch: main
